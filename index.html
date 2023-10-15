@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relational operators</title>
+</head>
+<body>
+    
+    <script>
+        // in (object)
+        let obj = {
+            name: "Sara",
+            height: 180,
+            age: 40 
+        }
+        console.log("age" in obj);
+
+        // in (array)
+        let arr = [1, 2, 3, 4, "end"];
+        console.log(3 in arr);
+
+        // instanceof
+        let date = new Date(2030, 12-1, 20); // months 0..11
+        console.log(date);
+        console.log(date instanceof Date);
+
+    </script>
+</body>
+</html>
